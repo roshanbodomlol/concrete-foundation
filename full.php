@@ -7,6 +7,7 @@ $this->inc('elements/header.php');
         <div class="row">
             <div class="col-md-12">
                 This is the content.
+                GIT TEST
             </div>
         </div>
     </div>
