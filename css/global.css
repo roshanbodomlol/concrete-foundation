@@ -1,0 +1,124 @@
+/*FONT FACE*/
+
+@font-face {
+	font-family: 'nevis';
+	src: url('../fonts/nevis.eot');
+	src: url('../fonts/nevis.eot?#iefix') format('embedded-opentype'),
+	url('../fonts/nevis.woff') format('woff'),
+	url('../fonts/nevis.ttf') format('truetype'),
+	url('../fonts/nevis.svg#nevis') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+
+/* Footer fix */
+
+body {
+	padding-top:0;
+	display: block;
+	position:absolute;
+	height:auto;
+	bottom:0;
+	top:0;
+	left:0;
+	right:0;
+	font-family: Lato, sans-serif;
+	font-size: 16px;
+}
+
+#wrapper {
+	min-height:100%;
+	position:relative;
+}
+
+#wrapper-outer {
+	height: 100%;
+	position: relative;
+}
+
+#header-wrapper {
+}
+
+#content-wrapper {
+}
+
+#footer-wrapper {
+	position: absolute;
+	width:100%;
+	bottom:0;
+	left:0;
+}
+
+/* BASIC */
+
+h1,h2,h3,h4,h5,h6 {
+	font-family: nevis, sans-serif;
+}
+
+img {
+	max-width:100%;
+}
+
+:focus {
+	outline:none;
+}
+
+a:link, a:visited {
+	text-decoration:none;
+}
+
+ul.no-bullets li {
+	list-style:none !important;
+}
+
+/*GENERAL*/
+
+#loading_screen {
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	text-align: center;
+	background: #000;
+	-webkit-transition: all .3s ease;
+	-moz-transition: all .3s ease;
+	-ms-transition: all .3s ease;
+	-o-transition: all .3s ease;
+	transition: all .3s ease;
+}
+
+#loading_screen.off {
+	opacity: 0;
+	visibility: hidden;
+	-webkit-transition: all .3s ease;
+	-moz-transition: all .3s ease;
+	-ms-transition: all .3s ease;
+	-o-transition: all .3s ease;
+	transition: all .3s ease;
+}
+
+.logged_in #loading_screen {
+	display: none;
+}
+
+.img_back {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background-size: cover !important;
+	background-position: center !important;
+}
+
+.table_outer {
+	display: table;
+	width: 100%;
+	height: 100%;
+}
+
+.table_inner {
+	display: table-cell;
+}
+
+.va_middle {
+	vertical-align: middle;
+}
