@@ -5,6 +5,14 @@
 
 <div id="footer-wrapper">
     
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                This is the footer.
+            </div>
+        </div>
+    </div>
+    
 </div> <!--FOTOER WRAPPER-->
 
 </div> <!--WRAPPER-->

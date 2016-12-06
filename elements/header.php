@@ -7,8 +7,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
 
     <link rel="stylesheet" type="text/css" href="<?php echo $view->getThemePath()?>/css/bootstrap.min.css">
-    <link rel="stylesheet" type="text/css" href="<?php echo $view->getThemePath()?>/css/global.css">
-    <link rel="stylesheet" type="text/css" href="<?php echo $view->getThemePath()?>/css/responsive.css">
+    <link rel="stylesheet" type="text/css" href="<?php echo $view->getThemePath()?>/css/theme.css">
 
     <?php Loader::element('header_required', array('pageTitle' => isset($pageTitle) ? $pageTitle : '', 'pageDescription' => isset($pageDescription) ? $pageDescription : '', 'pageMetaKeywords' => isset($pageMetaKeywords) ? $pageMetaKeywords : ''));?>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -80,7 +79,11 @@ if($c->isEditMode()) {
 
 
     <div id="header-wrapper">
-
+        <div class="container">
+            <div class="col-md-12">
+                This is the header
+            </div>
+        </div>
     </div>
 
     <div id="content-wrapper">
